@@ -30,7 +30,6 @@ else
 			exit 1
 		else
 			useradd $user &&  echo "L'utilisateur $user a été crée"
-			exit 0
 		fi
 	done
 fi
